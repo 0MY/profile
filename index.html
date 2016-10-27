@@ -1,0 +1,199 @@
+<!-- Buid a web site with:
+    an image of yourself
+    a header and sub-header with your name and position
+    a description of yourself
+    a list of your social links
+    a table of your projects, favorite movies, programming languages, sport teams, recipes, etc... whatever you want.
+
+    You can use the target="_blank" attribute on your links to open them on new tabs once
+. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Olivier MARTY - Presentation at Le Wagon">
+    <!-- Tags Facebook -->
+    <meta property="og:title" content="Olivier MARTY - CTO">
+    <meta property="og:image" content="images/Poppy Terminator.jpg">
+    <meta property="og:description" content="Olivier MARTY - Presentation at Le Wagon">
+    <meta property="og:site_name" content="Olivier MARTY"/>
+    <!-- Tags Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@OlivierMARTY">
+    <meta name="twitter:title" content="Olivier MARTY - CTO">
+    <meta name="twitter:description" content="Olivier MARTY - Presentation at Le Wagon">
+    <meta name="twitter:creator" content="@OlivierMARTY">
+    <meta name="twitter:image:src" content="images/Poppy Terminator.jpg">
+    <title>Olivier MARTY - CTO</title>
+
+    <!-- Google fonts -->
+     <link href="https://fonts.googleapis.com/css?family=Aclonica|Codystar|Faster+One|Henny+Penny|Open+Sans|Press+Start+2P|Nunito|Montserrat" rel="stylesheet">
+    <!-- Fontawesome -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Placer MA feuille de style APRES les link des fonts pour qu'ils puissent être surchargés par mon code CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="align_center">
+          <img src="images/Poppy Terminator.jpg" alt="Olivier vs. Open Source 3D printed Humanoid Robot 'Poppy' from INRIA" class="img_circle">
+        </div>
+        <h1><strong>Olivier MARTY</strong></h1>
+        <h2>CTO - Walking my way</h2>
+        <div class="align_left">
+          <p>
+            After several years managing complex systems integration, I wish I could create huge things by myself.
+          </p>
+          <p>
+            So I am now at Le Wagon's training center to update my programming skills and feed my creativity.
+          </p>
+          <p>
+            I aim at motivating cool Scrum teamates to develop innovative projects using:
+            <ul>
+              <li>IoT (Internet of Things)</li>
+              <li>Smartphones and tablet computers</li>
+              <li>Hybrid Cloud platforms</li>
+              <li>Single Board Computers (Arduino, Raspberry Pi)</li>
+              <li>NFCs, QR-codes and beacons technologies</li>
+              <li>Global cellular connectivity for IoT (Sigfox, LoRa)</li>
+              <li>Big Data</li>
+              <li>Machine Learning</li>
+              <li>Robotics</li>
+              <li>Business Intelligence</li>
+              <li>3D and immersive augmented reality technology</li>
+            </ul>
+          </p>
+          <p>
+            <em>Wide project, ambitious curiosity and lot of fun !</em>
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <ul class="list-inline align_center">
+          <li>
+            <a href="https://www.linkedin.com/in/omarty" target="_blank"><i class="fa fa-linkedin font_big" aria-hidden="true"></i><br>Linkedin</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/omarty" target="_blank"><i class="fa fa-facebook font_big" aria-hidden="true"></i><br>Facebook</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/omarty" target="_blank"><i class="fa fa-twitter font_big" aria-hidden="true"></i><br>Twitter</a>
+          </li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>
+          My Favorite movies
+        </h2>
+        <table>
+          <thead>
+            <tr>
+              <th>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <img src="images/Back to the Future.jpg" alt="Back to the Future / Retour vers le Futur" width="100em">
+              </td>
+              <td>
+                <div class="align_left">
+                  <h3 id="Future">Back to the Future</h3>
+                  <p>
+                    Marty Mc fly, Doc, a DeLorean and Time Travel...
+                  </p>
+                  <p><em>
+                    "Roads? Where we are going, we don't need roads !"
+                  </em></p>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="images/The Lord of the Rings.jpg" alt="Lors of the Rings / Le Seigneur des Anneaux" width="100em">
+              </td>
+              <td>
+                <div class="align_left">
+                  <h3 id="Tolkien">The Lord of the Rings</h3>
+                  <img src="images/Tolkien - Le Seigneur des Anneaux.jpg" alt="Runes for The Lord of the Rings" width="200em" id="img_border">
+                  <p>
+                    Frodo, Gandalf, Gollum and the Fellowship of the Ring in a journey to Saurons's eyes...
+                  </p>
+                  <p><em>
+                    "One Ring to rule them all, One Ring to find them,<br>
+                    One Ring to bring them all and in the darkness bind them"
+                  </em></p>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="images/WarGames.jpg" alt="WarGames" width="100em">
+              </td>
+              <td>
+                <div class="align_left">
+                  <h3 id="Computer">WarGames</h3>
+                  <p>
+                  A teenager about to trigger a World War from his bedroom with just a computer and a modem...
+                  </p>
+                  <p><em>
+                    <span class="speaker">Joshua:</span> Greetings, Professor Falken.<br>
+                    <span class="speaker">Stephen Falken:</span> Hello, Joshua.<br>
+                    <span class="speaker">Joshua:</span> A strange game. The only winning move is not to play. How about a nice game of chess?"
+                  </em></p>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="images/Electric Dreams.jpg" alt="Electric Dreams" width="100em">
+              </td>
+              <td>
+                <div class="align_left">
+                  <h3 id="Electric">Electric Dreams</h3>
+                  <p>
+                    A computer flooded with champaign, a computer vs. cello awsome music battle and some electric dreams...
+                  </p>
+                  <p><em>
+                    <span class="speaker">Computer's Monitor: [beeps as Miles mistypes his own name]</span> MOLES<br>
+                    <span class="speaker">Miles Harding:</span> Oh, that's wrong.<br>
+                    <span class="speaker">Computer's Monitor:</span> hello moles // ever used a computer / before?<br>
+                  </em></p>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card">
+        <h2>About this page</h2>
+        <p class="align_center">
+          This page has been coded during the
+          <a href="http://lewagon.org/program" target="_blank">FullStack program @LeWagon
+          </a>.
+          That sure will become my best training experience.
+        </p>
+        <p>
+          <ul class="list-inline font_big align_center">
+            <li>
+              <a href="http://lewagon.org/program" target="_blank"><i class="fa fa-linux" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="http://lewagon.org/program" target="_blank"><i class="fa fa-plane" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="http://lewagon.org/program" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </p>
+      </div>
+    </div>
+  </spanody>
+</html>
